@@ -1,0 +1,95 @@
+body {
+    font-family:'Times New Roman';
+}
+
+main{
+    margin: auto;
+    width: 100%;
+}
+
+h1{
+    font-family:'Courier New';
+    font-size:xx-large;
+}
+
+footer{
+    position:center;
+    padding: 10px;  
+    text-align:center;
+    overflow:hidden;
+    margin: 0 auto;
+}
+
+/*div.base stuff*/
+div.base ul {
+    width: 500px;
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color:cornflowerblue;
+}
+div.base li {
+    float:left;
+}
+div.base li a {
+    text-align: center;
+    display:block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+div.base li a:hover {
+    background-color:blueviolet;
+}
+div.base li a:active {
+    background-color: #66CC33;
+}
+
+/*div main stuff*/
+div.main {
+    position:relative;
+    padding-bottom: 0px; /*interesting comment from internet // proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+    padding-top: 0px;
+}
+div.main iframe{
+    background-color:lightgrey;
+    width: 500px;
+    height: 600px;
+    padding-bottom: 0;
+    display:block;
+    margin: 0 auto;
+    opacity:0.9;
+}
+
+/*div imglist stuff*/
+div.imglist ul{
+    width: 480px;
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+div.imglist li {
+    float:left;
+    padding:0;
+}
+div.imglist li img{
+    display:block;
+    text-decoration: none;
+    padding: 0;
+}
+div.imglist li p {
+    font-size: 14px;
+    padding:0;
+    text-align: center;
+    display:block;
+    color: black;
+    background-color:cornflowerblue;
+}
+div.imglist li p:hover{
+    background-color:blueviolet;
+}
+div.imglist li p:active{
+    opacity: 0.9;
+    background-color: #66CC33;
+}

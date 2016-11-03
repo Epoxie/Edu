@@ -65,7 +65,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.html" />
+    <Content Include="Garage.html" />
+    <Content Include="HO1.jpg" />
+    <Content Include="HO2.jpg" />
+    <Content Include="HO3.jpg" />
+    <Content Include="HO4.jpg" />
+    <Content Include="HO5.jpg" />
+    <Content Include="HOB.jpg" />
+    <Content Include="Home.html" />
+    <Content Include="stylesheet.css" />
     <Content Include="Web.config" />
+    <Content Include="Webbsite.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
