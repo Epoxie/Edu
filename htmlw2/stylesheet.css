@@ -7,9 +7,24 @@ main{
     width: 100%;
 }
 
+h1, h2 {
+    font-family: 'Courier New';
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 h1{
-    font-family:'Courier New';
+    font-size:x-large;
+}
+
+h2{
+    font:bold;
     font-size:xx-large;
+    text-align:center;
+}
+
+header{
+    padding:0;
 }
 
 footer{
@@ -47,38 +62,39 @@ div.base li a:active {
 
 /*div main stuff*/
 div.main {
+    width: 500px;
+    background-color:lightgrey;
     position:relative;
-    padding-bottom: 0px; /*interesting comment from internet // proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
-    padding-top: 0px;
+    padding-bottom: 0; /*interesting comment from internet // proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+    padding-top: 0;
+    opacity: 0.8;
+    margin: 0 auto;
+    display:block;
 }
 div.main iframe{
-    background-color:lightgrey;
     width: 500px;
     height: 600px;
     padding-bottom: 0;
-    display:block;
-    margin: 0 auto;
-    opacity:0.9;
 }
 
-/*div imglist stuff*/
-div.imglist ul{
+/*div vehiclelist stuff*/
+div.vehiclelist ul{
     width: 480px;
     list-style-type: none;
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
 }
-div.imglist li {
+div.vehiclelist li {
     float:left;
     padding:0;
 }
-div.imglist li img{
+div.vehiclelist li img{
     display:block;
     text-decoration: none;
     padding: 0;
 }
-div.imglist li p {
+div.vehiclelist li p {
     font-size: 14px;
     padding:0;
     text-align: center;
@@ -86,10 +102,43 @@ div.imglist li p {
     color: black;
     background-color:cornflowerblue;
 }
-div.imglist li p:hover{
+div.vehiclelist li p:hover{
     background-color:blueviolet;
 }
-div.imglist li p:active{
+div.vehiclelist li p:active{
+    opacity: 0.9;
+    background-color: #66CC33;
+}
+
+/*div personlist stuff*/
+div.personlist ul{
+    width: 480px;
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+div.personlist li {
+    float:left;
+    padding-right: 3px;
+}
+div.personlist li img{
+    display:block;
+    text-decoration: none;
+    padding: 0;
+}
+div.personlist li p {
+    font-size: 14px;
+    padding:0;
+    text-align: center;
+    display:block;
+    color: black;
+    background-color:cornflowerblue;
+}
+div.personlist li p:hover{
+    background-color:blueviolet;
+}
+div.personlist li p:active{
     opacity: 0.9;
     background-color: #66CC33;
 }

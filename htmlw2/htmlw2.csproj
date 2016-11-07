@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.html" />
+    <Content Include="cliptank.png" />
     <Content Include="Garage.html" />
     <Content Include="HO1.jpg" />
     <Content Include="HO2.jpg" />
